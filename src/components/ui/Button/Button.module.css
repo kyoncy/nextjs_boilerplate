@@ -1,0 +1,12 @@
+.button {
+  padding: 0 8px;
+  text-align: center;
+}
+
+.button-m {
+  height: 20px;
+}
+
+.button-l {
+  height: 28px;
+}

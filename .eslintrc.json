@@ -24,6 +24,7 @@
         "tsx": "never"
       }
     ],
+    "import/prefer-default-export": "off",
     "semi": ["error", "always"],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
@@ -59,5 +60,13 @@
         "pathGroups": []
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.tsx"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ]
 }
