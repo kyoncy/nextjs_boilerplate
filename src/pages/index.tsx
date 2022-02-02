@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { Button } from 'src/components/ui/Button';
+
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => (
@@ -10,6 +12,7 @@ const Home: NextPage = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     Next.js boilerplate
+    <Button size="l">sample</Button>
   </div>
 );
 

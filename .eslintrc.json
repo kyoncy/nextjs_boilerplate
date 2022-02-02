@@ -17,6 +17,13 @@
     "prettier"
   ],
   "rules": {
+    "import/extensions": [
+      "error",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
     "semi": ["error", "always"],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
